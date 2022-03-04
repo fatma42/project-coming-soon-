@@ -8,8 +8,20 @@ body{
 
 .logo{
  color: white;
- font-family: sans-serif;
+ font-family: "raleway", sans-serif;
  font-size: x-large;
  padding-left: 10px;
  padding-top: 10px;
+}
+
+.main-part{
+ font-family: "Raleway", sans-serif;
+ font-size: 64px!important;
+ color: white;
+ text-transform: uppercase;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
 }
