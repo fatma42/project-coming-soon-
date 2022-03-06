@@ -14,14 +14,48 @@ body{
  padding-top: 10px;
 }
 
-.main-part{
- font-family: "Raleway", sans-serif;
- font-size: 64px!important;
- color: white;
- text-transform: uppercase;
+.mid-part{
  position: fixed;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
+}
 
+.word{
+ font-family: "Raleway", sans-serif;
+ font-size: 64px!important;
+ color: white;
+ text-transform: uppercase;
+}
+
+.line{
+ border-color: #ffffff!important;
+ width: 40%;
+ margin-top: 25px;
+ overflow: visible;
+ border: 0;
+ border-top: 1px solid #eee;
+
+}
+.word2{
+ font-family: "Raleway", sans-serif;
+ font-size: 18px!important;
+ color: white;
+ text-align: center;
+ margin-top: 25px;
+
+}
+
+.the-bottom-part{
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ display: block;
+ color: #ffffff;
+ padding: 20px;
+ font-family: "raleway", sans-serif;
+}
+
+a:hover{
+ color:#ffffff!important;
 }
