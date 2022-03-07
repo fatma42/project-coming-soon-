@@ -54,10 +54,13 @@ body{
  color: #ffffff;
  padding: 20px;
  font-family: "raleway", sans-serif;
+ font-size: medium;
+}
+.x{
+ display: inline;
 }
 
 a{
- display: block;
  color: white;
  text-align: center;
 }
